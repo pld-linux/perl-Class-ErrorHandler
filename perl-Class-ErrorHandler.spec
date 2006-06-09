@@ -1,24 +1,24 @@
 #
 # Conditional build:
-%bcond_without	tests   # do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
 #
-%include        /usr/lib/rpm/macros.perl
-%define         pdir    Class
-%define         pnam    ErrorHandler
-Summary:        Class::ErrorHandler - base class for error handling
+%include	/usr/lib/rpm/macros.perl
+%define		pdir	Class
+%define		pnam	ErrorHandler
+Summary:	Class::ErrorHandler - base class for error handling
 Summary(pl):	Class::ErrorHandler - klasa bazowa do obs³ugi b³êdów
-Name:           perl-Class-ErrorHandler
-Version:        0.01
-Release:        1
+Name:		perl-Class-ErrorHandler
+Version:	0.01
+Release:	1
 # same as perl
-License:        GPL v1+ or Artistic
-Group:          Development/Languages/Perl
-Source0:        http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+License:	GPL v1+ or Artistic
+Group:		Development/Languages/Perl
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6a07ad34dfcdf510677f92e47643976d
-BuildRequires:  perl-devel >= 1:5.8.0
-BuildRequires:  rpm-perlprov >= 4.1-13
-BuildArch:      noarch
-BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
+BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is Class::ErrorHandler, a base class for classes that need to do
