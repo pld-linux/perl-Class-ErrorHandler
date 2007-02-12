@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	ErrorHandler
 Summary:	Class::ErrorHandler - base class for error handling
-Summary(pl):	Class::ErrorHandler - klasa bazowa do obs³ugi b³êdów
+Summary(pl.UTF-8):   Class::ErrorHandler - klasa bazowa do obsÅ‚ugi bÅ‚Ä™dÃ³w
 Name:		perl-Class-ErrorHandler
 Version:	0.01
 Release:	1
@@ -25,9 +25,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is Class::ErrorHandler, a base class for classes that need to do
 error handling (which is, probably, most of them).
 
-%description -l pl
-To jest Class::ErrorHandler - klasa bazowa dla klas potrzebuj±cych
-obs³ugiwaæ b³êdy (czyli prawdopodobnie wiêkszo¶ci).
+%description -l pl.UTF-8
+To jest Class::ErrorHandler - klasa bazowa dla klas potrzebujÄ…cych
+obsÅ‚ugiwaÄ‡ bÅ‚Ä™dy (czyli prawdopodobnie wiÄ™kszoÅ›ci).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
