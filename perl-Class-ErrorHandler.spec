@@ -9,7 +9,7 @@ Summary:	Class::ErrorHandler - base class for error handling
 Summary(pl.UTF-8):	Class::ErrorHandler - klasa bazowa do obsługi błędów
 Name:		perl-Class-ErrorHandler
 Version:	0.01
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
